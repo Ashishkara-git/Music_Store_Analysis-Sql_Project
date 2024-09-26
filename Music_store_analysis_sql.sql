@@ -227,4 +227,4 @@ where rn<=3 ;
 
 Select * from track;
 alter table track
-change  name track_name varchar(100); -- had to change the name of coulumn in track table due to getting duplicate column name error
+change  name track_name varchar(100);
